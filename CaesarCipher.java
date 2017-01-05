@@ -42,6 +42,7 @@ public class CaesarCipher {
             if((decChar >= 62 && decChar <=64) || (decChar >= 94 && decChar <= 96)){
                 decChar += 26;
             }
+            printf("Hello Github");
             fout.write(decChar);
         }
         fout.flush();
